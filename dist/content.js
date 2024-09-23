@@ -1282,7 +1282,7 @@ ValTown.fileFromPath = fileFromPath;
 })(ValTown || (ValTown = {}));
 var sdk_default = ValTown;
 
-// content.ts
+// src/content/content.ts
 console.log("Loaded content script for github gist val runner");
 (async () => {
   const valTownClient = new sdk_default({
@@ -1302,6 +1302,7 @@ console.log("Loaded content script for github gist val runner");
           privacy: "public",
           readme: `Created from [this GitHub Gist](${window.location.href}), using [gistal](https://github.com/404wolf/gistal)`
         });
+        console.log("Opening new val", newVal.url);
         window.open(newVal.url);
       };
       buttonContainer.appendChild(Object.assign(document.createElement("button"), {

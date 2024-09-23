@@ -1,4 +1,4 @@
-// options/options.ts
+// src/options/options.ts
 function saveOptions() {
   const apiKeyElement = document.getElementById("apiKey");
   const apiKey = apiKeyElement.value;
