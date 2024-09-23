@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Valtown Gist Runner",
-  "description": "Run code snippets from anywhere on the web in val.town vals",
+  "description": "Run Github gists as val.town vals",
   "version": "1.0",
   "permissions": ["activeTab", "storage"],
   "browser_action": {
@@ -14,7 +14,7 @@
   "options_page": "options.html",
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
+      "matches": ["https://gist.github.com/*"],
       "js": ["content.js"],
       "run_at": "document_end",
       "all_frames": true
