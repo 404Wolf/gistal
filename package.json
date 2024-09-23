@@ -1,0 +1,19 @@
+{
+  "name": "gistal",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun run ./build.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/chrome": "^0.0.271",
+    "@valtown/sdk": "^0.23.0"
+  }
+}
+
