@@ -3,14 +3,7 @@
   "name": "Valtown Gist Runner",
   "description": "Run Github gists as val.town vals",
   "version": "1.0",
-  "permissions": ["activeTab", "storage"],
-  "browser_action": {
-    "default_title": "Find Code"
-  },
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "permissions": ["activeTab", "storage", "scripting"],
   "options_page": "options.html",
   "content_scripts": [
     {
