@@ -1,5 +1,7 @@
 # Gistal
 
+![6619b5c3-2a02-4826-ae1e-0f6c2fd364c3](https://github.com/user-attachments/assets/fdd5da77-9f3f-49fd-b525-6adca950459c)
+
 ![output](https://github.com/user-attachments/assets/23d8b56d-587c-4865-83cb-044d6dfb3fc1)
 
 
